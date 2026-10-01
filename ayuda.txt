@@ -1,0 +1,34 @@
+# CRUD Api Rest python, flask y SQLite3 -> (RCUD)
+# curl http://localhost:5000/tareas
+# curl -X POST -H "Content-Type: application/json" -d "{\"titulo\":\"Mi primera tarea profesional\"}" http://localhost:5000/tareas
+# curl -X PUT http://127.0.0.1:5000/tareas/1 -H "Content-Type: application/json" -d "{\"completada\": true}"
+# curl -X DELETE http://127.0.0.1:5000/tareas/1
+
+requirements
+# Flask==2.2.5
+# Werkzeug==2.2.3
+# Flask==2.0.3
+# Werkzeug==2.0.3
+# pygame==2.0.1
+# requests
+# flake8 black
+
+# Comandos
+
+python -m venv .venv
+pip install -r requirements.txt
+
+git config --global user.name "name"
+git config user.name (consultar)
+git config --global user.email "email"
+git config user.email (consultar)
+git config --list - Lista de parametros configurados
+git init - inicializar el control de versiones a carpeta_proyecto
+git status - verificar archivos modificados
+git add . - Agregar todos los cambios realizados
+git commit -m "mensaje" - Guardar estado con mensaje
+git push origin main / git push -u origin main - Enviar cambios al repositorio (nube) Github
+git branch -M main
+git remote add origin https://github.com/usuario/carpeta_proyecto.git (ruta)
+git clone[ruta1](ruta2)
+q - Salir
