@@ -1,0 +1,84 @@
+{
+  "cuentas": {
+    "2901244847": {
+      "num_cuenta": "2901244847",
+      "titular": "Javier Gomez",
+      "saldo": "100000.00",
+      "pin_hash": "f4a233ad02f2916576d1832434125a27d1d1ed977556db4f31be366ba143de86",
+      "pin_salt": "bce46e286fdcacd537d8a67afbff1803",
+      "fecha_creacion": "2026-09-29T20:06:51.407668+00:00",
+      "activa": true,
+      "intentos_fallidos": 0,
+      "bloqueada": false
+    },
+    "1648826011": {
+      "num_cuenta": "1648826011",
+      "titular": "Cindy Gomez",
+      "saldo": "100000.00",
+      "pin_hash": "aec0bef379fe605e9fdf3e0af305efd0740d9acb2c948e4a981b4609235dbdec",
+      "pin_salt": "09c6bd4f64f01f3d86326da5195236c1",
+      "fecha_creacion": "2026-09-29T20:11:01.298617+00:00",
+      "activa": true,
+      "intentos_fallidos": 0,
+      "bloqueada": false
+    }
+  },
+  "transacciones": [
+    {
+      "id_tx": "cd764dd6-4c52-4936-9173-f5598cec4784",
+      "num_cuenta": "2901244847",
+      "tipo": "DEPOSITO",
+      "monto": "50000.00",
+      "fecha": "2026-09-29T20:06:53.669392+00:00",
+      "descripcion": "Apertura de Cuenta - Depósito Inicial"
+    },
+    {
+      "id_tx": "ef10930d-b190-4dd3-b8a6-3bc06e595b6b",
+      "num_cuenta": "1648826011",
+      "tipo": "DEPOSITO",
+      "monto": "150000.00",
+      "fecha": "2026-09-29T20:11:02.679864+00:00",
+      "descripcion": "Apertura de Cuenta - Depósito Inicial"
+    },
+    {
+      "id_tx": "2a538a86-7e67-410e-9a68-21efe48af27a",
+      "num_cuenta": "1648826011",
+      "tipo": "TRANSFERENCIA_ENVIADA",
+      "monto": "50000.00",
+      "fecha": "2026-09-29T20:13:39.305392+00:00",
+      "descripcion": "A CTA: 2901244847 - Pago de helados"
+    },
+    {
+      "id_tx": "43ef4445-6d6b-4f0e-8079-9302c5ffacb2",
+      "num_cuenta": "2901244847",
+      "tipo": "TRANSFERENCIA_RECIBIDA",
+      "monto": "50000.00",
+      "fecha": "2026-09-29T20:13:39.305392+00:00",
+      "descripcion": "DE CTA: 1648826011 - Pago de helados"
+    },
+    {
+      "id_tx": "bb517cd0-a2ca-4a2b-ad14-4587978b655d",
+      "num_cuenta": "2901244847",
+      "tipo": "RETIRO",
+      "monto": "10000.00",
+      "fecha": "2026-09-29T19:18:22.775911+00:00",
+      "descripcion": "Retiro de efectivo"
+    },
+    {
+      "id_tx": "891703c8-2abb-4a77-b7e0-237ec223de82",
+      "num_cuenta": "2901244847",
+      "tipo": "DEPOSITO",
+      "monto": "1234.00",
+      "fecha": "2026-09-29T19:19:17.230415+00:00",
+      "descripcion": "Depósito de fondos en efectivo"
+    },
+    {
+      "id_tx": "c4eca140-208d-4650-80aa-762cffa101aa",
+      "num_cuenta": "2901244847",
+      "tipo": "DEPOSITO",
+      "monto": "8766.00",
+      "fecha": "2026-09-29T19:20:56.984833+00:00",
+      "descripcion": "Depósito de fondos en efectivo"
+    }
+  ]
+}

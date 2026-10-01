@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+.venv/
+/venv
+
+# Base de datos local
+.database/
+*.database
+database.db
+*.sqlite3
+*.db
+
+# Cache de python
+__pycache__/
+*.pyc
+
+# Vs code
+.vscode
+.vscode/
+
+# Git - Github
+instance/
